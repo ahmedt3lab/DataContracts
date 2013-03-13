@@ -8,8 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		18DB941516DA4BC900A61E9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DB941416DA4BC900A61E9E /* Foundation.framework */; };
-		18DB941A16DA4BC900A61E9E /* DataContracts.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18DB941916DA4BC900A61E9E /* DataContracts.h */; };
-		18DB941C16DA4BCA00A61E9E /* DataContracts.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB941B16DA4BCA00A61E9E /* DataContracts.m */; };
+		18E80C7316EE010500B54596 /* ApplicationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C3C16EE010500B54596 /* ApplicationResult.m */; };
+		18E80C7416EE010500B54596 /* CallFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C3E16EE010500B54596 /* CallFlow.m */; };
+		18E80C7516EE010500B54596 /* CallFlowMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4016EE010500B54596 /* CallFlowMessages.m */; };
+		18E80C7616EE010500B54596 /* CallFlowSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4216EE010500B54596 /* CallFlowSection.m */; };
+		18E80C7716EE010500B54596 /* CallFlowSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4416EE010500B54596 /* CallFlowSlide.m */; };
+		18E80C7816EE010500B54596 /* Choice.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4616EE010500B54596 /* Choice.m */; };
+		18E80C7916EE010500B54596 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4816EE010500B54596 /* Doctor.m */; };
+		18E80C7A16EE010500B54596 /* DoctorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4A16EE010500B54596 /* DoctorCategory.m */; };
+		18E80C7B16EE010500B54596 /* DoctorClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4C16EE010500B54596 /* DoctorClass.m */; };
+		18E80C7C16EE010500B54596 /* DoctorLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C4E16EE010500B54596 /* DoctorLocation.m */; };
+		18E80C7D16EE010500B54596 /* DoctorMedicalCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5016EE010500B54596 /* DoctorMedicalCenter.m */; };
+		18E80C7E16EE010500B54596 /* DoctorSpecialty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5216EE010500B54596 /* DoctorSpecialty.m */; };
+		18E80C7F16EE010500B54596 /* Indication.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5416EE010500B54596 /* Indication.m */; };
+		18E80C8016EE010500B54596 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5616EE010500B54596 /* Message.m */; };
+		18E80C8116EE010500B54596 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5816EE010500B54596 /* Note.m */; };
+		18E80C8216EE010500B54596 /* Plan.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5A16EE010500B54596 /* Plan.m */; };
+		18E80C8316EE010500B54596 /* Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5C16EE010500B54596 /* Plus.m */; };
+		18E80C8416EE010500B54596 /* PreVisitCustomCallFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C5E16EE010500B54596 /* PreVisitCustomCallFlow.m */; };
+		18E80C8516EE010500B54596 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6016EE010500B54596 /* Product.m */; };
+		18E80C8616EE010500B54596 /* Pulsar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6216EE010500B54596 /* Pulsar.m */; };
+		18E80C8716EE010500B54596 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6416EE010500B54596 /* Question.m */; };
+		18E80C8816EE010500B54596 /* QuestionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6616EE010500B54596 /* QuestionResult.m */; };
+		18E80C8916EE010500B54596 /* Slide_Reference.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6816EE010500B54596 /* Slide_Reference.m */; };
+		18E80C8A16EE010500B54596 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6A16EE010500B54596 /* Request.m */; };
+		18E80C8B16EE010500B54596 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6C16EE010500B54596 /* Section.m */; };
+		18E80C8C16EE010500B54596 /* Slide.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C6E16EE010500B54596 /* Slide.m */; };
+		18E80C8D16EE010500B54596 /* Visit.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C7016EE010500B54596 /* Visit.m */; };
+		18E80C8E16EE010500B54596 /* VisitDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80C7216EE010500B54596 /* VisitDetail.m */; };
+		18E80E0916EE257E00B54596 /* Slide_Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80E0816EE257D00B54596 /* Slide_Plus.m */; };
+		18E80E0C16EE259700B54596 /* Reference.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80E0B16EE259500B54596 /* Reference.m */; };
+		18E80E0F16EE28EB00B54596 /* Slide_Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80E0E16EE28E900B54596 /* Slide_Parameter.m */; };
+		18E80E1216EE2A6E00B54596 /* DoctorPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80E1116EE2A6B00B54596 /* DoctorPlan.m */; };
+		18E80E1516EE2ADF00B54596 /* Pulsar_Slide.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80E1416EE2ADC00B54596 /* Pulsar_Slide.m */; };
+		18E80E1816EE2AF400B54596 /* Pulsar_Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E80E1716EE2AF100B54596 /* Pulsar_Question.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +51,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				18DB941A16DA4BC900A61E9E /* DataContracts.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +60,75 @@
 		18DB941116DA4BC900A61E9E /* libDataContracts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDataContracts.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DB941416DA4BC900A61E9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18DB941816DA4BC900A61E9E /* DataContracts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataContracts-Prefix.pch"; sourceTree = "<group>"; };
-		18DB941916DA4BC900A61E9E /* DataContracts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataContracts.h; sourceTree = "<group>"; };
-		18DB941B16DA4BCA00A61E9E /* DataContracts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataContracts.m; sourceTree = "<group>"; };
+		18E80C3B16EE010500B54596 /* ApplicationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationResult.h; sourceTree = "<group>"; };
+		18E80C3C16EE010500B54596 /* ApplicationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationResult.m; sourceTree = "<group>"; };
+		18E80C3D16EE010500B54596 /* CallFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallFlow.h; sourceTree = "<group>"; };
+		18E80C3E16EE010500B54596 /* CallFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallFlow.m; sourceTree = "<group>"; };
+		18E80C3F16EE010500B54596 /* CallFlowMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallFlowMessages.h; sourceTree = "<group>"; };
+		18E80C4016EE010500B54596 /* CallFlowMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallFlowMessages.m; sourceTree = "<group>"; };
+		18E80C4116EE010500B54596 /* CallFlowSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallFlowSection.h; sourceTree = "<group>"; };
+		18E80C4216EE010500B54596 /* CallFlowSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallFlowSection.m; sourceTree = "<group>"; };
+		18E80C4316EE010500B54596 /* CallFlowSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallFlowSlide.h; sourceTree = "<group>"; };
+		18E80C4416EE010500B54596 /* CallFlowSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallFlowSlide.m; sourceTree = "<group>"; };
+		18E80C4516EE010500B54596 /* Choice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Choice.h; sourceTree = "<group>"; };
+		18E80C4616EE010500B54596 /* Choice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Choice.m; sourceTree = "<group>"; };
+		18E80C4716EE010500B54596 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		18E80C4816EE010500B54596 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		18E80C4916EE010500B54596 /* DoctorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorCategory.h; sourceTree = "<group>"; };
+		18E80C4A16EE010500B54596 /* DoctorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorCategory.m; sourceTree = "<group>"; };
+		18E80C4B16EE010500B54596 /* DoctorClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorClass.h; sourceTree = "<group>"; };
+		18E80C4C16EE010500B54596 /* DoctorClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorClass.m; sourceTree = "<group>"; };
+		18E80C4D16EE010500B54596 /* DoctorLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorLocation.h; sourceTree = "<group>"; };
+		18E80C4E16EE010500B54596 /* DoctorLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorLocation.m; sourceTree = "<group>"; };
+		18E80C4F16EE010500B54596 /* DoctorMedicalCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorMedicalCenter.h; sourceTree = "<group>"; };
+		18E80C5016EE010500B54596 /* DoctorMedicalCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorMedicalCenter.m; sourceTree = "<group>"; };
+		18E80C5116EE010500B54596 /* DoctorSpecialty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorSpecialty.h; sourceTree = "<group>"; };
+		18E80C5216EE010500B54596 /* DoctorSpecialty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorSpecialty.m; sourceTree = "<group>"; };
+		18E80C5316EE010500B54596 /* Indication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indication.h; sourceTree = "<group>"; };
+		18E80C5416EE010500B54596 /* Indication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indication.m; sourceTree = "<group>"; };
+		18E80C5516EE010500B54596 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		18E80C5616EE010500B54596 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		18E80C5716EE010500B54596 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		18E80C5816EE010500B54596 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		18E80C5916EE010500B54596 /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
+		18E80C5A16EE010500B54596 /* Plan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plan.m; sourceTree = "<group>"; };
+		18E80C5B16EE010500B54596 /* Plus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plus.h; sourceTree = "<group>"; };
+		18E80C5C16EE010500B54596 /* Plus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plus.m; sourceTree = "<group>"; };
+		18E80C5D16EE010500B54596 /* PreVisitCustomCallFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreVisitCustomCallFlow.h; sourceTree = "<group>"; };
+		18E80C5E16EE010500B54596 /* PreVisitCustomCallFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreVisitCustomCallFlow.m; sourceTree = "<group>"; };
+		18E80C5F16EE010500B54596 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		18E80C6016EE010500B54596 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		18E80C6116EE010500B54596 /* Pulsar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pulsar.h; sourceTree = "<group>"; };
+		18E80C6216EE010500B54596 /* Pulsar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pulsar.m; sourceTree = "<group>"; };
+		18E80C6316EE010500B54596 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		18E80C6416EE010500B54596 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		18E80C6516EE010500B54596 /* QuestionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionResult.h; sourceTree = "<group>"; };
+		18E80C6616EE010500B54596 /* QuestionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionResult.m; sourceTree = "<group>"; };
+		18E80C6716EE010500B54596 /* Slide_Reference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide_Reference.h; sourceTree = "<group>"; };
+		18E80C6816EE010500B54596 /* Slide_Reference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide_Reference.m; sourceTree = "<group>"; };
+		18E80C6916EE010500B54596 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		18E80C6A16EE010500B54596 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		18E80C6B16EE010500B54596 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		18E80C6C16EE010500B54596 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		18E80C6D16EE010500B54596 /* Slide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide.h; sourceTree = "<group>"; };
+		18E80C6E16EE010500B54596 /* Slide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide.m; sourceTree = "<group>"; };
+		18E80C6F16EE010500B54596 /* Visit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visit.h; sourceTree = "<group>"; };
+		18E80C7016EE010500B54596 /* Visit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visit.m; sourceTree = "<group>"; };
+		18E80C7116EE010500B54596 /* VisitDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitDetail.h; sourceTree = "<group>"; };
+		18E80C7216EE010500B54596 /* VisitDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitDetail.m; sourceTree = "<group>"; };
+		18E80CF316EE05F300B54596 /* DataContracts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataContracts.h; sourceTree = "<group>"; };
+		18E80E0716EE257B00B54596 /* Slide_Plus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide_Plus.h; sourceTree = "<group>"; };
+		18E80E0816EE257D00B54596 /* Slide_Plus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide_Plus.m; sourceTree = "<group>"; };
+		18E80E0A16EE259300B54596 /* Reference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reference.h; sourceTree = "<group>"; };
+		18E80E0B16EE259500B54596 /* Reference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reference.m; sourceTree = "<group>"; };
+		18E80E0D16EE28E700B54596 /* Slide_Parameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide_Parameter.h; sourceTree = "<group>"; };
+		18E80E0E16EE28E900B54596 /* Slide_Parameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide_Parameter.m; sourceTree = "<group>"; };
+		18E80E1016EE2A6A00B54596 /* DoctorPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorPlan.h; sourceTree = "<group>"; };
+		18E80E1116EE2A6B00B54596 /* DoctorPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorPlan.m; sourceTree = "<group>"; };
+		18E80E1316EE2ADA00B54596 /* Pulsar_Slide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pulsar_Slide.h; sourceTree = "<group>"; };
+		18E80E1416EE2ADC00B54596 /* Pulsar_Slide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pulsar_Slide.m; sourceTree = "<group>"; };
+		18E80E1616EE2AEF00B54596 /* Pulsar_Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pulsar_Question.h; sourceTree = "<group>"; };
+		18E80E1716EE2AF100B54596 /* Pulsar_Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pulsar_Question.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +171,75 @@
 		18DB941616DA4BC900A61E9E /* DataContracts */ = {
 			isa = PBXGroup;
 			children = (
-				18DB941916DA4BC900A61E9E /* DataContracts.h */,
-				18DB941B16DA4BCA00A61E9E /* DataContracts.m */,
+				18E80C5F16EE010500B54596 /* Product.h */,
+				18E80C6016EE010500B54596 /* Product.m */,
+				18E80C6116EE010500B54596 /* Pulsar.h */,
+				18E80C6216EE010500B54596 /* Pulsar.m */,
+				18E80C5316EE010500B54596 /* Indication.h */,
+				18E80C5416EE010500B54596 /* Indication.m */,
+				18E80C5916EE010500B54596 /* Plan.h */,
+				18E80C5A16EE010500B54596 /* Plan.m */,
+				18E80C6D16EE010500B54596 /* Slide.h */,
+				18E80C6E16EE010500B54596 /* Slide.m */,
+				18E80C5B16EE010500B54596 /* Plus.h */,
+				18E80C5C16EE010500B54596 /* Plus.m */,
+				18E80E0A16EE259300B54596 /* Reference.h */,
+				18E80E0B16EE259500B54596 /* Reference.m */,
+				18E80E0716EE257B00B54596 /* Slide_Plus.h */,
+				18E80E0816EE257D00B54596 /* Slide_Plus.m */,
+				18E80C6716EE010500B54596 /* Slide_Reference.h */,
+				18E80C6816EE010500B54596 /* Slide_Reference.m */,
+				18E80E0D16EE28E700B54596 /* Slide_Parameter.h */,
+				18E80E0E16EE28E900B54596 /* Slide_Parameter.m */,
+				18E80E1316EE2ADA00B54596 /* Pulsar_Slide.h */,
+				18E80E1416EE2ADC00B54596 /* Pulsar_Slide.m */,
+				18E80E1616EE2AEF00B54596 /* Pulsar_Question.h */,
+				18E80E1716EE2AF100B54596 /* Pulsar_Question.m */,
+				18E80C6B16EE010500B54596 /* Section.h */,
+				18E80C6C16EE010500B54596 /* Section.m */,
+				18E80C5516EE010500B54596 /* Message.h */,
+				18E80C5616EE010500B54596 /* Message.m */,
+				18E80C6316EE010500B54596 /* Question.h */,
+				18E80C6416EE010500B54596 /* Question.m */,
+				18E80C4516EE010500B54596 /* Choice.h */,
+				18E80C4616EE010500B54596 /* Choice.m */,
+				18E80C3D16EE010500B54596 /* CallFlow.h */,
+				18E80C3E16EE010500B54596 /* CallFlow.m */,
+				18E80C3F16EE010500B54596 /* CallFlowMessages.h */,
+				18E80C4016EE010500B54596 /* CallFlowMessages.m */,
+				18E80C4116EE010500B54596 /* CallFlowSection.h */,
+				18E80C4216EE010500B54596 /* CallFlowSection.m */,
+				18E80C4316EE010500B54596 /* CallFlowSlide.h */,
+				18E80C4416EE010500B54596 /* CallFlowSlide.m */,
+				18E80C4716EE010500B54596 /* Doctor.h */,
+				18E80C4816EE010500B54596 /* Doctor.m */,
+				18E80C4916EE010500B54596 /* DoctorCategory.h */,
+				18E80C4A16EE010500B54596 /* DoctorCategory.m */,
+				18E80C4B16EE010500B54596 /* DoctorClass.h */,
+				18E80C4C16EE010500B54596 /* DoctorClass.m */,
+				18E80C4D16EE010500B54596 /* DoctorLocation.h */,
+				18E80C4E16EE010500B54596 /* DoctorLocation.m */,
+				18E80C4F16EE010500B54596 /* DoctorMedicalCenter.h */,
+				18E80C5016EE010500B54596 /* DoctorMedicalCenter.m */,
+				18E80C5116EE010500B54596 /* DoctorSpecialty.h */,
+				18E80C5216EE010500B54596 /* DoctorSpecialty.m */,
+				18E80E1016EE2A6A00B54596 /* DoctorPlan.h */,
+				18E80E1116EE2A6B00B54596 /* DoctorPlan.m */,
+				18E80C5716EE010500B54596 /* Note.h */,
+				18E80C5816EE010500B54596 /* Note.m */,
+				18E80C6916EE010500B54596 /* Request.h */,
+				18E80C6A16EE010500B54596 /* Request.m */,
+				18E80C5D16EE010500B54596 /* PreVisitCustomCallFlow.h */,
+				18E80C5E16EE010500B54596 /* PreVisitCustomCallFlow.m */,
+				18E80C3B16EE010500B54596 /* ApplicationResult.h */,
+				18E80C3C16EE010500B54596 /* ApplicationResult.m */,
+				18E80C6516EE010500B54596 /* QuestionResult.h */,
+				18E80C6616EE010500B54596 /* QuestionResult.m */,
+				18E80C6F16EE010500B54596 /* Visit.h */,
+				18E80C7016EE010500B54596 /* Visit.m */,
+				18E80C7116EE010500B54596 /* VisitDetail.h */,
+				18E80C7216EE010500B54596 /* VisitDetail.m */,
+				18E80CF316EE05F300B54596 /* DataContracts.h */,
 				18DB941716DA4BC900A61E9E /* Supporting Files */,
 			);
 			path = DataContracts;
@@ -139,7 +304,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DB941C16DA4BCA00A61E9E /* DataContracts.m in Sources */,
+				18E80C7316EE010500B54596 /* ApplicationResult.m in Sources */,
+				18E80C7416EE010500B54596 /* CallFlow.m in Sources */,
+				18E80C7516EE010500B54596 /* CallFlowMessages.m in Sources */,
+				18E80C7616EE010500B54596 /* CallFlowSection.m in Sources */,
+				18E80C7716EE010500B54596 /* CallFlowSlide.m in Sources */,
+				18E80C7816EE010500B54596 /* Choice.m in Sources */,
+				18E80C7916EE010500B54596 /* Doctor.m in Sources */,
+				18E80C7A16EE010500B54596 /* DoctorCategory.m in Sources */,
+				18E80C7B16EE010500B54596 /* DoctorClass.m in Sources */,
+				18E80C7C16EE010500B54596 /* DoctorLocation.m in Sources */,
+				18E80C7D16EE010500B54596 /* DoctorMedicalCenter.m in Sources */,
+				18E80C7E16EE010500B54596 /* DoctorSpecialty.m in Sources */,
+				18E80C7F16EE010500B54596 /* Indication.m in Sources */,
+				18E80C8016EE010500B54596 /* Message.m in Sources */,
+				18E80C8116EE010500B54596 /* Note.m in Sources */,
+				18E80C8216EE010500B54596 /* Plan.m in Sources */,
+				18E80C8316EE010500B54596 /* Plus.m in Sources */,
+				18E80C8416EE010500B54596 /* PreVisitCustomCallFlow.m in Sources */,
+				18E80C8516EE010500B54596 /* Product.m in Sources */,
+				18E80C8616EE010500B54596 /* Pulsar.m in Sources */,
+				18E80C8716EE010500B54596 /* Question.m in Sources */,
+				18E80C8816EE010500B54596 /* QuestionResult.m in Sources */,
+				18E80C8916EE010500B54596 /* Slide_Reference.m in Sources */,
+				18E80C8A16EE010500B54596 /* Request.m in Sources */,
+				18E80C8B16EE010500B54596 /* Section.m in Sources */,
+				18E80C8C16EE010500B54596 /* Slide.m in Sources */,
+				18E80C8D16EE010500B54596 /* Visit.m in Sources */,
+				18E80C8E16EE010500B54596 /* VisitDetail.m in Sources */,
+				18E80E0916EE257E00B54596 /* Slide_Plus.m in Sources */,
+				18E80E0C16EE259700B54596 /* Reference.m in Sources */,
+				18E80E0F16EE28EB00B54596 /* Slide_Parameter.m in Sources */,
+				18E80E1216EE2A6E00B54596 /* DoctorPlan.m in Sources */,
+				18E80E1516EE2ADF00B54596 /* Pulsar_Slide.m in Sources */,
+				18E80E1816EE2AF400B54596 /* Pulsar_Question.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +368,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -190,30 +389,35 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Release;
 		};
 		18DB942016DA4BCA00A61E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/DataContracts.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DataContracts/DataContracts-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
 		18DB942116DA4BCA00A61E9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/DataContracts.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DataContracts/DataContracts-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -236,6 +440,7 @@
 				18DB942116DA4BCA00A61E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
